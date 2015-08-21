@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro);
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  width: 100%;
+  background: #fff;
+  overflow-y: hidden; }
+
+.top {
+  display: table;
+  width: 100%;
+  height: 25vh; }
+  .top li {
+    display: inline-block;
+    width: 48vw;
+    height: 5vh;
+    text-align: center; }
+
+.row {
+  width: 100%;
+  height: 60vh;
+  border-top: 2px solid #444; }
+  .row .cell {
+    display: inline-block;
+    width: 24vw;
+    height: 100%;
+    vertical-align: top;
+    border-left: 2px solid #444; }
+    .row .cell .news {
+      padding: 15px 0px 0px 10px; }
+
+ul, .document {
+  list-style-type: none;
+  vertical-align: top;
+  padding: 10px; }
+  ul li, .document li {
+    display: block;
+    width: 100%; }
+
+h1, h2, h3, h4, p, a, li {
+  font-family: "Anonymous Pro", "Monospace";
+  color: #444; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  line-height: 25vh;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 30px; }
+
+h3 {
+  padding: 5px 0px;
+  font-size: 24px; }
+
+p, a, li {
+  font-size: 18px; }
+
+a {
+  color: #0000ee; }
+  a:hover {
+    color: #444; }
+
+@media (max-width: 780px) {
+  body {
+    overflow-y: visible; }
+
+  .row .cell {
+    width: 49vw;
+    border-bottom: 2px solid #444; }
+
+  .top li {
+    width: 100%; } }
+@media (max-width: 380px) {
+  .row .cell {
+    width: 99vw;
+    height: 40vh; }
+
+  .row .news-cell {
+    height: auto; } }
+
+/*# sourceMappingURL=style.css.map */

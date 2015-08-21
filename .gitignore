@@ -1,0 +1,5 @@
+*.swp
+*.pyc
+v/
+.sass-cache/
+*.map
